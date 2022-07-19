@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./index.css";
-import { store } from "./store";
+import { store } from "./app/store";
 import { Boards } from "./pages/Boards";
 import { Board } from "./pages/Board";
 import { NotFound } from "./pages/NotFound";
