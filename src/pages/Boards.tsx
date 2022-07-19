@@ -11,7 +11,7 @@ export function Boards() {
 
   useEffect(() => {
     document.body.classList.value = "bg-white";
-  });
+  }, []);
 
   return (
     <div className="mx-8">

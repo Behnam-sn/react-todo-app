@@ -23,7 +23,7 @@ export function Board() {
     if (currentBoard) {
       document.body.classList.value = currentBoard.color;
     }
-  });
+  }, [currentBoard]);
 
   if (currentBoard) {
     const filteredLists = lists.filter((list) => {
